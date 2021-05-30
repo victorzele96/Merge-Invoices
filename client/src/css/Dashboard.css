@@ -1,0 +1,159 @@
+body {
+    font-family: sans-serif;
+    /* background-color: #eeeeee; */
+    background-image: url("../images/cpa-office1.jpg");
+  }
+  
+  .button{
+    /* margin-top: 50px auto 50px auto; */
+    margin: 30px;
+    position: absolute;
+    background: #00bcd4;
+    left: 10%;
+    width: 80%;
+  }
+
+  /* .file{
+    text-align: center;
+  }
+  
+  .file{
+    z-index: 1;
+    margin-top: 155px;
+    height: 250px;
+    opacity: 1;
+  }
+  
+  * {border:0;outline:0;}
+  
+  .largeFile:after {
+    position:absolute;
+    width:40%;
+    height: 300px;
+    content:"Upload your file";
+    left:0;
+    right:0;
+    margin:150px auto;
+    text-align:center;
+    padding:50px 0px 50px 0px;
+    border-radius:10px;
+    border:5px dashed lightblue;
+    color:lightblue;
+    font-family:"Helvetica Neue", Helvetica, Arial;
+    font-size:30px; 
+  }
+  
+  .largeFile:hover:after {
+    background:#00bcd4;
+    border:5px dashed #00bcd4;
+    color:#fff;
+    cursor:pointer;
+  }
+  
+  
+  .largeFile input.file {
+      width: 0px;
+      height: 0px;
+  }  */
+  .file-wrapper{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -250px;
+    width: 500px;
+    height: 200px;
+    border-radius:10px;
+    border:5px dashed royalblue;
+  }
+  .file-wrapper p{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 170px;
+    color: royalblue;
+    font-size: 30px;
+    font-family: Arial;
+  }
+  .file-wrapper input{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+  }
+
+  .table-container{
+    margin-top: 350px;
+  }
+
+  /* .table-holder{
+    position: absolute;
+  } */
+  
+  .fixed_headers {
+    margin: -110px;
+    margin-top: -20px;
+    width: 100%;
+    table-layout: relative;
+    border-collapse: collapse;
+  }
+
+  .fixed_headers_document {
+    margin: -140px;
+    margin-top: -600px;
+    width: 100%;
+    /* height: 100%; */
+    table-layout: relative;
+    border-collapse: collapse;
+  }
+  
+  .fixed_headers th,
+  .fixed_headers td, 
+  .fixed_headers_document th,
+  .fixed_headers_document td {
+    padding: 5px;
+    text-align: center;
+    min-width: 220px;
+    max-width: 220px;
+    font-size: 20px;
+  }
+  
+  .fixed_headers thead,
+  .fixed_headers_document thead {
+    background-color: #2c3e50;
+    color: #ffffff;
+    margin-top: 50px;
+  }
+  
+  .fixed_headers thead tr,
+  .fixed_headers_document thead tr {
+    display: block;
+    position: relative;
+  }
+  
+  .fixed_headers tbody,
+  .fixed_headers_document tbody {
+    display: block;
+    overflow: auto;
+    width: 100%;
+    height: 300px;
+  }
+
+  .fixed_headers_document tbody {
+    height: 600px;
+  }
+  
+  .fixed_headers tbody tr:nth-child(even),
+  .fixed_headers_document tbody tr:nth-child(even) {
+    background-color: #00bcd4;
+    color: white;
+
+  }
+
+  .fixed_headers tbody tr:nth-child(odd),
+  .fixed_headers_document tbody tr:nth-child(odd) {
+    background-color: #fff;
+  }
