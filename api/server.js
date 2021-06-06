@@ -84,7 +84,7 @@ const job = schedule.scheduleJob('*/30 * * * *', function(){ //if we want to sen
                   from: 'merge.invoices.react@gmail.com',
                   to: doc.data().cpa_email.toString(),   //'`${doc.data().cpa_email}`'
                   subject: `Merged invoices from ${doc.data().business_name}`, //${doc.data().cpa_first name}${doc.data().cpa_lastname}
-                  text: 'Dudes, we really need your money.',
+                  text: 'here will be script message for cpa about the mail.',
                   attachments: [{
                     filename: `${doc.data().cpa_email}.pdf`,
                     path: `./merge-files/${doc.data().email}.pdf`,
